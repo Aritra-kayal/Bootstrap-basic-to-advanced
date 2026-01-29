@@ -1,0 +1,15 @@
+.container {
+  background-color: yellow;
+}
+
+div {
+  background-color: pink;
+}
+
+.container-md {
+  background-color: green;
+}
+
+.container-fluid {
+  background-color: aqua;
+}
