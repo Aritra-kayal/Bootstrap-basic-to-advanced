@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="practice5.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="mb-3 col-md-6">
+            <label for="email" class="form-label">Enter your email</label>
+            <input
+              type="email"
+              id="email"
+              class="form-control"
+              placeholder="email"
+            />
+          </div>
+          <div class="mb-3 col-md-6">
+            <label for="password" class="form-label">Enter your password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              placeholder="password"
+            />
+          </div>
+        </div>
+        <div class="mb-3">
+          <select class="form-select">
+            <option selected>Select you city</option>
+            <option value="kolkata">Kolkata</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Bengaluru">Bengaluru</option>
+          </select>
+        </div>
+        <div class="mb-3 form-check">
+          <input
+            type="checkbox"
+            id="check1"
+            class="form-check-input"
+            disabled
+          />
+          <label for="check1" class="form-check-label">Agree</label>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" id="check2" class="form-check-input" checked />
+          <label for="check2" class="form-check-label">Not agree</label>
+        </div>
+        <div class="mb-3 form-check">
+          <input
+            type="radio"
+            id="radio1"
+            class="form-check-input"
+            name="disition"
+          />
+          <label for="radio1" class="form-check-label">Agree</label>
+        </div>
+        <div class="mb-3 form-check">
+          <input
+            type="radio"
+            id="radio2"
+            class="form-check-input"
+            name="disition"
+            checked
+          />
+          <label for="radio2" class="form-check-label">Not agree</label>
+        </div>
+        <div class="mb-3 form-check form-switch">
+          <input
+            type="checkbox"
+            id="switch1"
+            class="form-check-input"
+            checked
+          />
+          <label for="switch1" class="form-check-label">Agree</label>
+        </div>
+        <div class="mb-3 form-check form-switch">
+          <input type="checkbox" id="switch2" class="form-check-input" />
+          <label for="switch2" class="form-check-label">Not agree</label>
+        </div>
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
